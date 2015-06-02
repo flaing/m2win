@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>clj-iterate</groupId>
+  <artifactId>clj-iterate</artifactId>
+  <version>0.96</version>
+  <name>clj-iterate</name>
+  <description>An iteration macro along the lines of Common Lisp Iterate.</description>
+  <scm>
+    <connection>scm:git:git://github.com/jpalmucci/clj-iterate.git</connection>
+    <developerConnection>scm:git:ssh://git@github.com/jpalmucci/clj-iterate.git</developerConnection>
+    <tag>56ac804c708b348e9b17e1b552e5cc6422525edb</tag>
+    <url>https://github.com/jpalmucci/clj-iterate</url>
+  </scm>
+  <build>
+    <sourceDirectory>src</sourceDirectory>
+    <testSourceDirectory>test</testSourceDirectory>
+    <resources>
+      <resource>
+        <directory>resources</directory>
+      </resource>
+    </resources>
+    <testResources>
+      <testResource>
+        <directory>test-resources</directory>
+      </testResource>
+    </testResources>
+  </build>
+  <repositories>
+    <repository>
+      <id>central</id>
+      <url>http://repo1.maven.org/maven2</url>
+    </repository>
+    <repository>
+      <id>clojars</id>
+      <url>http://clojars.org/repo/</url>
+    </repository>
+  </repositories>
+  <dependencies>
+    <dependency>
+      <groupId>lein-multi</groupId>
+      <artifactId>lein-multi</artifactId>
+      <version>1.1.0-SNAPSHOT</version>
+      <scope>test</scope>
+    </dependency>
+  </dependencies>
+</project>
